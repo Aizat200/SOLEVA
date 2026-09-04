@@ -239,9 +239,6 @@ h1,h2,h3,h4{margin:0;font-weight:400;}
   display:block;
   overflow:hidden;
 }
-.hero-title span::before{
-  content:attr(data-text);
-}
 .hero-title span{
   opacity:0;
   transform:translateY(100%);

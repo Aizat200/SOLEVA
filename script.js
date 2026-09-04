@@ -555,8 +555,6 @@ function initReveal(){
 /* =========================================================
    INIT
 ========================================================= */
-document.querySelectorAll(".hero-title span").forEach(s => s.setAttribute("data-text", s.textContent));
-
 renderArrivals();
 renderProducts();
 initFilterFromURL();
